@@ -35,7 +35,7 @@ test:
 
 about:
   home: https://github.com/hdrake/xbudget
-  summary: Helper functions and metadata conventions for wrangling finite-volume ocean model budgets
+  summary: Helper functions and metadata recipes for wrangling finite-volume ocean model budgets
   license: MIT
   license_file: LICENSE
 
