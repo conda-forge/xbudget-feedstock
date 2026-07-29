@@ -7,7 +7,7 @@ Home: https://github.com/hdrake/xbudget
 
 Package license: MIT
 
-Summary: Helper functions and metadata conventions for wrangling finite-volume ocean model budgets
+Summary: Helper functions and metadata recipes for wrangling finite-volume ocean model budgets
 
 Current build status
 ====================
