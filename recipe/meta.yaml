@@ -1,5 +1,5 @@
 {% set name = "xbudget" %}
-{% set version = "0.7.0" %}
+{% set version = "0.8.0" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/x/xbudget/xbudget-{{ version }}.tar.gz
-  sha256: 064fb86796879d49bdee7f5887d6d11b8a949402a0a031970a7a0fc1b6be2d29
+  sha256: d813eda4a9ca00527a2ec4b6186634a5c5b56b4557b8311cce2be488a680708f
 
 build:
   noarch: python
@@ -20,8 +20,10 @@ requirements:
     - python {{ python_min }}
     - pip
     - hatchling
+    - hatch-vcs
   run:
     - python >={{ python_min }}
+    - cf-units
     - numpy
     - pyyaml
     - xarray
